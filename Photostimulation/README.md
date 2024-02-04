@@ -20,13 +20,7 @@ doi: https://doi.org/10.1101/2024.01.23.576893
 - Import and save files from GitHub
 
 
-This text you see here is *actually- written in Markdown! To get a feel
-for Markdown's syntax, type some text into the left window and
-watch the results in the right.
-
 ## Installation Guide
-
-Dillinger uses a number of open source projects to work properly:
 
 - Install MATLAB and required add-ons
 ##
