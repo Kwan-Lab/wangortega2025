@@ -71,7 +71,7 @@ end
     trialType={'reward','noreward'};
     edges=[-2:0.1:5];   % edges to plot the lick rate histogram
     lick_trType=get_lickrate_byTrialType(trialData,trials,trialType,edges);
-    plot_lickrate_byTrialType(lick_trType, 0);
+    plot_lickrate_byTrialType(lick_trType);
     
     %% plot response times
     valLabel='Response time (s)';    

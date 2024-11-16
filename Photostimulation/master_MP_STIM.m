@@ -298,9 +298,9 @@ end
 save_path_NE = fullfile(root_path_NE,'summary','figs_summary');
 
 
-MP_GRAB_behaviorPerAnimal(dataIndex,save_path_NE);
+MP_STIM_behaviorPerAnimal(dataIndex,save_path_NE);
 
-MP_GRAB_behaviorAll(dataIndex, save_path_NE);
+MP_STIM_behaviorAll(dataIndex, save_path_NE);
 %%
 % NE
 model_path = fullfile(root_path_NE,'mat_models\NS');

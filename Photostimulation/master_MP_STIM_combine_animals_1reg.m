@@ -50,9 +50,9 @@ for k = 1:size(regionList,1)
         save_path = fullfile(root_path,currReg,'summary','figs_summary');
         
     
-        MP_GRAB_behaviorPerAnimal(dataIndex,save_path);
+        MP_STIM_behaviorPerAnimal(dataIndex,save_path);
         
-        MP_GRAB_behaviorAll(dataIndex, save_path);
+        MP_STIM_behaviorAll(dataIndex, save_path);
     %
         % Calculate stats by stimulation region - by session
         % Animal

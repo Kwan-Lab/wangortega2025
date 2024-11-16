@@ -1,4 +1,4 @@
-function MP_GRAB_behaviorAll(dataIndex,save_path)
+function MP_STIM_behaviorAll(dataIndex,save_path)
 % % bandit_behaviorPerAnimal %
 %PURPOSE:   Analyze bandit behavior averaged across animals
 %AUTHORS:   H Atilgan and AC Kwan 191204

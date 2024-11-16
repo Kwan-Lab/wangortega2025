@@ -1,4 +1,4 @@
-function MP_GRAB_behaviorPerAnimal(dataIndex,save_path)
+function MP_STIM_behaviorPerAnimal(dataIndex,save_path)
 % % MP_behaviorPerAnimal %
 %PURPOSE:   Analyze matching pennies behavior averaged across animals
 %AUTHORS:   H Atilgan and AC Kwan 191204
