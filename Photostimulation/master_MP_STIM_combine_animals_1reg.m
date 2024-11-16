@@ -8,7 +8,7 @@ sidePreference = 0; %1 to analyze side preference by session
 
 for k = 1:size(regionList,1)
         currReg = regionList(k,:);
-    root_path = 'C:\Users\Cornell\Documents\MATLAB\MP_GRABNE-main\MP_Stim\1Region';
+    root_path = 'C:\Users\xiachong\Documents\GitHub\WangOrtega2024\Photostimulation\MP_STIM\1Region';
 
     sz = [0 4];
         varTypes = ["string","double","double","double"];
@@ -45,7 +45,7 @@ for k = 1:size(regionList,1)
         nFiles = size(dataIndex(:,:),1);
         for ii = 1:nFiles
             savematpath = dataIndex.BehPath{ii};
-             [lowEntropyTable] = MP_GRAB_session(dataIndex.BehPath{ii},dataIndex.LogFileName{ii},savematpath, lowEntropyTable);
+             [lowEntropyTable] = MP_STIM_session(dataIndex.BehPath{ii},dataIndex.LogFileName{ii},savematpath, lowEntropyTable);
         end
         save_path = fullfile(root_path,currReg,'summary','figs_summary');
         

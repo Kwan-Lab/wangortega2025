@@ -1,4 +1,4 @@
-function lowEntropyTable = MP_GRAB_session(BehPath,LogFileName,savematpath, lowEntropyTable)
+function lowEntropyTable = MP_STIM_session(BehPath,LogFileName,savematpath, lowEntropyTable)
 % % bandit_session %
 %PURPOSE:   Preparing to analyze a single session of mouse behavior
 %AUTHORS:   H Atilgan and AC Kwan 191203

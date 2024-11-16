@@ -44,7 +44,7 @@ for k = 1:size(powerList,1)
     
         for ii = 1:nFiles
             savematpath = dataIndex.BehPath{ii};
-             [lowEntropyTable] = MP_GRAB_session(dataIndex.BehPath{ii},dataIndex.LogFileName{ii},savematpath, lowEntropyTable);
+             [lowEntropyTable] = MP_STIM_session(dataIndex.BehPath{ii},dataIndex.LogFileName{ii},savematpath, lowEntropyTable);
         end
         save_path = fullfile(root_path,'summary','figs_summary');
         
